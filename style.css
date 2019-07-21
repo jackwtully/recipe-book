@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+    margin: 0;
+}
+p, ol{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+#main-header{
+    background: #a00;
+}
+#main-header h1{
+    padding: 2rem 0 2rem 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+}
+#navbar{
+    /* background ; */
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0; 
+    padding-bottom: 10px;
+    padding-top: 1.2rem;
+}
+#navbar li{
+    display: inline;
+    padding-right: 1.6rem;
+}
+li a{
+    font-weight: bold;
+    color: #a00;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.active{
+    color: #01863a;
+}
+li a:hover{
+    color: #f00;
+    text-decoration: none;
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+.recipies h2, .recipies h3{
+    font-family: 'Kaushan Script', cursive;
+}
+ol{
+    padding-left: 1.4rem; 
+}
